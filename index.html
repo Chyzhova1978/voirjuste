@@ -5,694 +5,801 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ВелоSHOP</title>
 
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 
-    <link rel="stylesheet" href="css/style.css">     
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__body">
+          <div class="header__logo">
+            <img src="images/Shopper.png" alt="#" />
+          </div>
 
-                                  <!-- HEADER -->
+          <div class="header__search">
+            <input
+              class="header__input"
+              type="text"
+              placeholder="Search Items"
+            />
+            <button><img src="images/Glass.png" alt="#" /></button>
+          </div>
 
-  <header class="header">
-  <div class="header__container container">
-    <div class="header__logo">
-      IC "Repair Design Project"
-    </div>
+          <div class="header__shop">
+            <button class="header__shop-btn">
+              <div class="header__item">
+                <img src="images/Shopping-bag.png" alt="#" />
+              </div>
+              <span class="header__span-added">0 Items Added</span>
+            </button>
+          </div>
 
-    <nav class="header__nav">
-      <ul class="nav__menu">
-        <li class="menu__item"><a href="#" class="menu__link menu__link-activ">HOME</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">PROJECTS</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">MEASUREMENT</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">TEAM</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">REVIEWS</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">CONTACTS</a></li>
-      </ul>
-    </nav>
-
-    <div class="header__contacts">
-      <a class="header__phone" href="tel:+79287683239">+7 (928) 768-32-39</a>
-      <div class="header__contact">
-      <button class="header__call-button" type="button">Request a call</button>
+          <div class="header__profil">
+            <button class="header__profil-btn">
+              <div class="header__img">
+                <img src="images/Profile 1.png" alt="" />
+              </div>
+              <span class="header__span-sing">Login or Sign Up</span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-  
-  </div>
-  </header>
+    </header>
 
+    <main>
+      <!-- FEATURES -->
 
-                                <!-- MEIN -->
-  <main>
+      <section class="section__container">
+        <div class="features__container container">  
+          <ul class="features__nav">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+          </ul>  
+        </div>
+      </section>
 
-                                <!-- CECTION: HERO -->
-  <section class="hero">
-  <div class="hero__overlay container">
-    <div class="hero__content">
-      <h1 class="hero__title">Turnkey Repair in the<br>city of <span>Rostov-on-Don</span></h1>
-      <p class="hero__text">Get ready-made turnkey repairs on time<br>with work time saving up to 45 days and 20% from<br>cost of materials due to the organization of work</p>
-      <div class="hero__buttons">
-        <button class="hero__button  hero__button-primary">CALCULATE THE COST</button>
-        <button class="hero__button hero__button-secondary">SUBMIT YOUR APPLICATION</button>
-      </div>
-    </div>
-  </div>
-  </section>
+      <!-- HELLO -->
 
+      <section class="hello">
+        <div class="hello__container container">
+          <div class="hello__body">
+            <div class="hello__text">
+              <div class="hello__text-title">
+                <div class="hello__title">
+                  <h1>Discover Our<br />Latest Products</h1>
+                </div>
 
-                                <!-- SECTION: COMPLETED PROJECRS -->
-  <section class="completed-projects">
-  <div class="completed-projects__container container">
-    <div class="gallery__tabs">
-      <span class="gallery__tab-first">Rostov-on-Don, Admiral</span>
-      <span class="gallery__tab">Sochi Thieves</span>
-      <span class="gallery__tab">Rostov-on-Don Patriotic</span>
-    </div>
+                <div class="hello__subtitle">
+                  <p>
+                    Lorem ipsum is a placeholder text commonly used<br />to
+                    demonstrate the visual form of a product
+                  </p>
+                </div>
 
+                  <a class="hello__btn" href="#">
+                    <span class="hello__btn-now">Buy Now</span></a>
+                
+              </div>
 
-    <div class="completed-projects__header">
-      <div class="completed-project__header">
-        <h2 class="completed__title">Completed<br>projects</h2>
+              <div class="hello__img">
+                <div class="hello__img-photo">
+                  <div class="hello__img-photo1">
+                    <img src="images/Elipse1.png" alt="#" />
+                  </div>
 
-        <p class="completed__title-text">Only a small part of the work performed by our company is presented<br>on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families</p>
+                  <div class="hello__img-photo2">
+                    <img src="images/Elipse2.png" alt="#" />
+                  </div>
 
-        <div class="completed-projects__info">
-          <!-- <div> -->
-            <div class="info__item">
-              <span class="info__label">City:</span>
-              <span class="info__value">Rostov-on-Don<br>LCD admiral</span>
+                  <div class="hello__img-photo3">
+                    <img src="images/Elipse3.png" alt="#" />
+                  </div>
+
+                  <div class="hello__img-photo4">
+                    <img src="images/Elipse4.png" alt="#" />
+                  </div>
+                </div>
+
+                <div class="hello__reviews">
+                  <p>15k Well<br />Reviews</p>
+                </div>
+              </div>
             </div>
 
-            <div class="info__item">
-              <span class="info__label">Repair time:</span>
-              <span class="info__value info__value-months">81 m2</span>
-            </div>
-          <!-- </div> -->
+            <div class="hello__headphones">
+              <div class="hello__star1">
+                <img src="images/Star 1.svg" alt="#" />
+              </div>
 
-          <!-- <div class="project__info"> -->
-            <div class="info__item">
-              <span class="info__label">apartment area:</span>
-              <span class="info__value">3.5 months</span>
+              <div class="hello__box">
+                <div class="hello__img-video">
+                  <div class="hello__img-circle">
+                    <img
+                      class="hello__img-play"
+                      src="images/Elipse5.png"
+                      alt="#"
+                    />
+                  </div>
+
+                  <div class="hello__video">
+                    <p>Play Video</p>
+                  </div>
+                </div>
+                <div class="hello__red">
+                  <div class="hello__red-photo">
+                    <img src="images/Headphone.png" alt="#" />
+                  </div>
+
+                  <div class="hello__price">
+                    <span>$50</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hello__star2">
+                <img src="images/Star 1.svg" alt="#" />
+              </div>
             </div>
-            
-            <div class="info__item">
-              <span class="info__label">Repair Cost:</span>
-              <span class="info__value">Upon request</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section class="products">
+        <div class="products__container container">
+          <div class="products__airpod">
+            <div class="products__title">
+              <h2 class="products__text">Apple wireless Airpod</h2>
             </div>
-          <!-- </div> -->
+
+            <div class="products__content">
+              <div class="products__apple">
+                <div class="products__images">
+                  <div class="products__img">
+                    <img src="images/Rectangle 17.png" alt="#" />
+                  </div>
+
+                  <div class="products__img-16">
+                    <img src="images/Rectangle 16.png" alt="#" />
+                  </div>
+
+                  <div class="products__img-15">
+                    <img src="images/Rectangle 15.png" alt="#" />
+                  </div>
+                </div>
+
+                <div class="products__price">
+                  <div class="products__pric">
+                    <p>Price :</p>
+                  </div>
+                  <div class="products__dollar">
+                    <p>$45 .99</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="products__visual-our">
+                <div class="product__title">
+                  <h2>Our Featured Products</h2>
+                </div>
+
+                <div class="product__text">
+                  <p>
+                    Lorem ipsum is a placeholder text commonly<br />used to
+                    demonstrate the visual form of a<br />product
+                  </p>
+                </div>
+
+                <div class="products__btn">
+                    <a class="products__add" href="#">Add to cart</a>
+                 
+                  <div>
+                    <button class="products__view">View more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SELLERS -->
+      <section class="sellers">
+        <div class="sellers__container container">
+          <div class="sellers__body">
+
+            <div class="sellers__title">
+              <h3>Top Sellers</h3>
+            </div>
+
+            <div class="sellers__btns">
+                <a class="sellers__btn" href="#">
+                  <span class="button">Top Picks</span>
+                </a>
+              
+              <div class="sellers__btn-top">
+                <a href="#">
+                  <span class="button__top">Watches</span>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="sellers__cards">
+
+
+
+
+              <div class="sellers__card-wrapper">
+
+                <div class="sellers__card sellers__card-green">
+                  <div class="sellers__green">
+                    
+                    <div class="save__green">
+                      <span>Save<br />60%</span>
+                    </div>
+
+                    <div class="sellers__boat1">
+
+                      <div class="sellers__wire1">
+                        <img class="sellers__wire_image" src="images/image 12.png" alt="#" />
+                      </div>
+
+                      <div class="sellers__background1">
+                        <div class="sellers__rockerz333">
+                          
+                          <div class="sellers__text">
+                            <h4>Boat Rockerz 333</h4>
+                          </div>
+
+                          <div class="sellers__stars5-reviews">
+                            <div class="sellers__stars5">
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                            </div>
+
+                            <div class="sellers__reviews">
+                              <h4>75 Reviews</h4>
+                            </div>
+
+                          </div>
+
+                          <div class="sellers__price">
+                            <p>$20</p>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                  <a class="button__add" href="#">
+                    <span class="button__btn">Add to cart</span>
+                  </a>
+
+              </div>
+
+
+
+             
+                <div class="sellers__card-wrapper">
+
+                  <div class="sellers__card sellers__card-blue">
+                    <div class="sellers__blue">
+
+                       <div class="sellers__boat1">
+
+                       <div class="sellers__wire1">
+                        <img class="sellers__wire_image" src="images/image 13.png"alt="#" />
+                      </div>
+
+                   
+
+                    <div class="sellers__background1">
+                      <div class="sellers__rockerz333">
+
+                        <div class="sellers__text">
+                          <h4>Boat kerz 234</h4>
+                        </div>
+
+                        <div class="sellers__stars5-reviews">
+                          <div class="sellers__stars5">
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                          </div>
+
+                          <div class="sellers__reviews">
+                            <h4>75 Reviews</h4>
+                          </div>
+
+                        </div>
+
+                        <div class="sellers__price">
+                          <p>$40</p>
+                        </div>
+
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="button__add" href="#">
+                  <span class="button__btn">Add to cart</span>
+                </a>
+
+              </div>
+
+
+
+             
+                 <div class="sellers__card-wrapper">
+
+                  <div class="sellers__card sellers__card-violet">
+                     <div class="sellers__violet">
+
+
+                  <div class="save__violet">
+                    <span>Save<br />$30</span>
+                  </div>
+
+                 <div class="sellers__boat1">
+
+                    <div class="sellers__wire1">
+                      <img class=" sellers__wire_image" src="images/image 14.png" alt="#" />
+                    </div>
+
+                    <div class="sellers__background1">
+                      <div class="sellers__rockerz333">
+
+                        <div class="sellers__text">
+                          <h4>Boat Rockerz 323</h4>
+                        </div>
+
+                        <div class="sellers__stars5-reviews">
+                          <div class="sellers__stars5">
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                          </div>
+
+                          <div class="sellers__reviews">
+                            <h4>75 Reviews</h4>
+                          </div>
+
+                        </div>
+
+                        <div class="sellers__price">
+                          <p>$20</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+
+                <a class="button__add" href="#">
+                  <span class="button__btn">Add to cart</span>
+                </a>
+ 
+            </div>
+
+              <div class="sellers__arrow">
+                <img src="images/right arrow.svg" alt="#" />
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+<!-- TRENDING EARPHONES -->
+       <section class="sellers">
+        <div class="sellers__container container">
+          <div class="sellers__body">
+
+            <div class="sellers__title">
+              <h3>Trending Earphones</h3>
+            </div>
+
+            <div class="sellers__btns">
+                <a class="sellers__btn" href="#">
+                  <span class="button">Earbuds</span>
+                </a>
+              
+              <div class="sellers__btn-top">
+                <a href="#">
+                  <span class="button__top">Wireless</span>
+                </a>
+              </div>
+
+              <div class="sellers__btn-top">
+                <a href="#">
+                  <span class="button__top">Wired</span>
+                </a>
+              </div>
+
+            </div>
+
+
+            <div class="sellers__cards">
+              <div class="sellers__card-wrapper">
+
+                <div class="sellers__card3 sellers__card-blu3">
+                  <div class="sellers__green">
+                    
+                    <div class="save__green">
+                      <span>Save<br />60%</span>
+                    </div>
+
+                    <div class="sellers__boat1">
+
+                      <div class="sellers__wire3">
+                        <img class="sellers__wire_image3" src="images/image 15.png" alt="#" />
+                      </div>
+
+                      <div class="sellers__background1">
+                        <div class="sellers__rockerz333">
+                          
+                          <div class="sellers__text">
+                            <h4>Boat Rockerz 333</h4>
+                          </div>
+
+                          <div class="sellers__stars5-reviews">
+                            <div class="sellers__stars5">
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                              <img src="images/Star 3.png" alt="#" />
+                            </div>
+
+                            <div class="sellers__reviews">
+                              <h4>75 Reviews</h4>
+                            </div>
+
+                          </div>
+
+                          <div class="sellers__price">
+                            <p>$20</p>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                  <a class="button__add" href="#">
+                    <span class="button__btn">Add to cart</span>
+                  </a>
+
+              </div>
+
+
+                <div class="sellers__card-wrapper">
+                  <div class="sellers__card sellers__card-blue4">
+                    <div class="sellers__blue">
+
+                       <div class="sellers__boat1">
+
+                       <div class="sellers__wire1">
+                        <img class="sellers__wire_image1" src="images/image 16.png"alt="#" />
+                      </div>
+
+                   
+                    <div class="sellers__background1">
+                      <div class="sellers__rockerz333">
+
+                        <div class="sellers__text">
+                          <h4>Boat kerz 234</h4>
+                        </div>
+
+                        <div class="sellers__stars5-reviews">
+                          <div class="sellers__stars5">
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                          </div>
+
+                          <div class="sellers__reviews">
+                            <h4>75 Reviews</h4>
+                          </div>
+
+                        </div>
+
+                        <div class="sellers__price">
+                          <p>$40</p>
+                        </div>
+
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="button__add" href="#">
+                  <span class="button__btn">Add to cart</span>
+                </a>
+
+              </div>
+
+
+                 <div class="sellers__card-wrapper">
+                  <div class="sellers__card sellers__card-blu5">
+                     <div class="sellers__violet">
+
+                  <div class="save__violet">
+                    <span>Save<br />$30</span>
+                  </div>
+
+                 <div class="sellers__boat1">
+
+                    <div class="sellers__wire1">
+                      <img class=" sellers__wire_image1" src="images/image 17.png" alt="#" />
+                    </div>
+
+                    <div class="sellers__background1">
+                      <div class="sellers__rockerz333">
+
+                        <div class="sellers__text">
+                          <h4>Boat Rockerz 323</h4>
+                        </div>
+
+                        <div class="sellers__stars5-reviews">
+                          <div class="sellers__stars5">
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                            <img src="images/Star 3.png" alt="#" />
+                          </div>
+
+                          <div class="sellers__reviews">
+                            <h4>75 Reviews</h4>
+                          </div>
+
+                        </div>
+
+                        <div class="sellers__price">
+                          <p>$20</p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+
+                <a class="button__add" href="#">
+                  <span class="button__btn">Add to cart</span>
+                </a>
+ 
+            </div>
+
+              <div class="sellers__arrow">
+                <img src="images/right arrow.svg" alt="#" />
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+<!-- NEW LAUNCHER -->
+      <section class="launcher">
+        <div class="launcher__container container">
+          <div class="launcher__body">
+
+            <div class="launcher__title">
+              <h2>New Launches</h2>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+<!-- AIRDROP -->
+ <section class="airdrop">
+  <div class="airdrop__container container">
+    <div class="airdrop__body">
+       
+        <div class="airdrop__left">
+          <img src="images/Group 36.png" alt="#">
         </div>
 
-        <div class="completed-projects__gallery">
+        <div class="airdrop__double">
+          <div class="airdrop__double-first">
+          <img class="airdrop__img-circle" src="images/image 18.png" alt="#">
+          </div>
+
+          <div class="airdrop__double-second">
+          <img class="airdrop__img-circle" src="images/image 19.png" alt="#">
+          </div>  
+          </div>
+
+          
+
+          <div class="airdrop__anc">
+        <div class="airdrop__title-main">
+          <h4>Airdrop 500 Anc</h4>
+        </div>
+
+        <div class="airdrop__text">
+          <p>Lorem ipsum is a placeholder text commonly used to<br>demonstrate the visual form of a product ... Read More</p>
+        </div>
+        <div class="airdrop__price">
+          <div class="airdrop__pric">
+            <p>Price :</p>
+          </div>
+          <div class="airdrop__dollar">
+            <p>$45 .99</p>
+          </div>
+        </div>
+
+        <div class="airdrop__circle">
+          <img src="images/Ellipse 28.png" alt="#">
+          <img src="images/Ellipse 29.png" alt="#">
+          <img src="images/Ellipse 30.png" alt="#">
+        </div>
+
+        <div class="airdrop__button">
+          <a class="airdrop__add" href="#">
+            <span>Add to cart</span>
+          </a>
           <div>
-            <button class="carousel__next">&larr;</button>
-          </div>
-
-          <!-- <div> -->
-            <button class="dot dot--active"></button>
-          <!-- </div> -->
-
-          <!-- <div> -->
-            <button class="dot"></button>
-          <!-- </div> -->
-
-          <!-- <div> -->
-            <button class="dot"></button>
-          <!-- </div> -->
-
-          <button class="carousel__next">&rarr;</button>
-        </div>
-      </div>
-
-      <div class="gallery__image">
-        <img class="gallery__photo" src="images/interion.png" alt="Interior photo of completed project">
-      </div>
-    </div>
-
-
-
-    <div class="online__control">
-      <div class="control__title">
-        <h2 class="online-control__title">online control</h2>
-      </div>
-      <div class="online__trio">
-        <div class="dash">&mdash;
-        </div>
-        <div class="online__vector">
-          <img src="images/vector.png" alt="#">
-        </div>
-        <div class="dash">&mdash;
-        </div>
-      </div>
-      <div class="online-control__video-container">
-        <div class="online-control__video">
-          <div class="online-control__video-second">
-            <div class="video__play-button">
-              <button type="button"></button>
-            </div>
+            <button class="airdrop__more">Explore More</button>
           </div>
         </div>
+
+      </div>
+
+      <div class="airdrop__right">
+        <img src="images/Group 35.png" alt="#">
+      </div>
+
+       
       </div>
     </div>
   </div>
-  </section>
+ </section>
+    </main>
 
+<!-- FOOTER -->
 
-                           <!-- SECTION: BROADCAST-REGUEST -->
-  <section class="broadcast-request">
-  <div class="broadcast-request__content container">
+    <footer class="footer ">
+      <div class="footer__container container">
+        <div class="footer__body">
 
-    <div class="dash__long">
-    <span class="dash__span">&mdash;</span>
-    </div>
+          <div class="footer__ready">
+            <p class="footer__text">Ready to get started?</p>
+            <a class="footer__btn" href="#">
+            <span>Get started</span>
+          </a>
+          </div>
 
+          <div class="footer__line horizontal_line"></div>
 
-    <div class="broadcast-request__separator">
-    <p class="broadcast-request__text">At each facility, a camera is installed that broadcasts the progress of work on the<br> clock. At any time, you can go to our website and monitor the progress of work in<br> your apartment. You can watch the live broadcast from one of our facilities!<br> Leave a request below and you will receive a link to the broadcast.</p>
-    </div>
+          <div class="footer__content">
 
-    <form class="broadcast-request__form">
+            <div class="footer__contacts">
+              <p>Subscribe to our<br>Website</p>
 
-      <div class="form">
+              <div class="footer__adress">
+              
+              <input class="text-field__inp"  type="text" placeholder="Email address">
+              <button class="footer__button">
+                <img class="footer__img" src="images/ic-keyboard-arrow-right-48px.png" alt="#">
+              </button>
+              </div>
+             </div>
 
-        <div class="form__group-name">
-          <label class="form__label-name__1" for="name">Name</label>
-          <input class="form__input-name__2" type="text" id="name" name="name" placeholder="What is your name:" >
-        </div>
-
-        <div class="form__group-name">
-           <label class="form__label-name__1" for="phone">Phone</label>
-          <input class="form__input-name__2" type="tel" id="phone" name="phone" placeholder="Your phone number:" >
-        </div>
-
-        <div>  
-        <button class="form__submit-button" type="submit">SUBMIT</button>
-        </div>
-      </div>
-
-       <div class="form-checkbox">
-          <input class="checkbox__input" type="checkbox" id="subscribe" name="subscribe" value="yes">
-          <label class="checkbox__label" for="subscribe">I agree to the processing of personal data</label>
-        </div>
-
-    </form>
-
-
-
-  </div>
-  </section>
-
-
-                          <!-- SECTION: TYPES OF REPAIR -->
-  <section class="repair">
-  <div class="repair__container container">
-
-
-    <div class="repair__header">
-      <h2 class="repair__title">TYPES OF REPAIR</h2>
-    </div>
-
-    <div class="repair__divider">
-      <div class="dash">&mdash;
-      </div>
-
-      <div class="online__vector">
-        <img src="images/divider.svg" alt="divider">
-      </div>
-
-      <div class="dash">&mdash;
-      </div>
-    </div>
-
-      <div class="repair__contents">
-
-        <!-- <div class="repair__image">
-          <img src="images/redecorating.jpg" alt="Redecorating">
-        </div> -->
-
-        <div class="repair__content">
-            <div class="repair__inner-content">
-                <div class="repair__text-container">
-                  <h3 class="repaire__title">Redecorating</h3>
-                  <ul class="repair__list">
-                    <li>Dismantling of old coatings</li>
-                    <li>Wallpapering</li>
-                    <li>Painting walls and ceilings</li>
-                    <li>Laying flooring</li>
-                    <li>Replacing plumbing</li>
-                    <li>Replacing sockets and switches</li>
-                    <li>Replacing doors</li>
+              <nav class="footer__links">
+                <div class="footer__item">
+                  <div class="footer__links-title">
+                    <p>Services</p>
+                  </div>
+                  <ul class="footer__item_links">
+                    <li>Email Marketing</li>
+                    <li>Campaigns</li>
+                    <li>Branding</li>
+                    <li>Offline</li>
                   </ul>
                 </div>
-  
-            <div class="repair__price">
-              <button class="repair__price-from">from 900 rub / m2</button>
-            </div>
-            </div>
-        </div>
 
-
-        <div class="repair__content2">
-          <div class="repair__inner-content">
-            <div class="repair__text-container">
-              <h3 class="repaire__title">Overhaul</h3>
-              <ul class="repair__list">
-                <li>Dismantling of old coatings</li>
-                <li>Wallpapering</li>
-                <li>Painting walls and ceilings</li>
-                <li>Laying flooring</li>
-                <li>Replacing plumbing</li>
-                <li>Replacing sockets and switches</li>
-                <li>Replacing doors</li>
-              </ul>
-            </div>
-    
-            <div class="repair__price">
-              <button class="repair__price-from">from 1800 rub / m2</button>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="repair__content3">
-          <div class="repair__inner-content">
-            <div class="repair__text-container">
-              <h3 class="repaire__title">Designer Repair</h3>
-              <ul class="repair__list">
-                <li>Dismantling of old coatings</li>
-                <li>Wallpapering</li>
-                <li>Painting walls and ceilings</li>
-                <li>Laying flooring</li>
-                <li>Replacing plumbing</li>
-                <li>Replacing sockets and switches</li>
-                <li>Replacing doors</li>
-              </ul>
-            </div>
-    
-            <div class="repair__price">
-              <button class="repair__price-from">from 4000 rub / m2</button>
-            </div>
-          </div>
-  
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-  </section>
-
-
-                             <!-- SECTION: MEASURER-->
-  <section class="measurer">
-    <div class="measurer__content container">   
-
-      <div class="measurer__container">
-        
-<!-- left containrt -->
-         <div class="measurer__container-price">
-
-          <div class="step">
-            <div class="step__number">01</div>
-            <div class="step__description">Our specialist will arrive for measurements per day<br> contact, or appoint a date convenient for you</div>
-          </div>
-
-          <div class="step">
-            <div class="step__number">02</div>
-            <div class="step__description">Free metering</div>
-          </div>
-
-          <div class="step">
-            <div class="step__number">03</div>
-            <div class="step__description">Free consultation</div>
-          </div>
-
-          <div class="step">
-            <div class="step__number">04</div>
-            <div class="step__description">Get a cost estimate and<br>the timing of your future repairs</div>
-          </div>
-        </div>
-        </div>
-      
-<!-- right container -->
-        <div class="measurer">
-          <div class="measurer__color">
-            <div class="measurer__form-container">
-              <form class="measurer__form">
-
-                <div class="measurer__form-contant">
-                  <h2 class="form__title">Leave a request for free<br>departure of the measurer</h2>
+                <div class="footer__item">
+                  <div class="footer__links-title">
+                    <p>Services</p>
+                  </div>
+                  <ul class="footer__item_links">
+                    <li>Our Story</li>
+                    <li>Benefits</li>
+                    <li>Team</li>
+                    <li>Careers</li>
+                  </ul>
                 </div>
-                  <div>
-                    <div class="form__group-three">
 
-                    <div class="form__group">
-                      <label class="form__label" for="name">Name</label>
-                      <input class="form__input" type="text" id="name" name="name" placeholder="What is your name:" >
-                    </div>
-
-                    <div class="form__group">
-                      <label class="form__label" for="phone">Phone</label>
-                      <input class="form__input" type="tel" id="phone" name="phone" placeholder="Your phone number:" >
-                    </div>
-
-                    <div class="form__group">
-                      <label class="form__label" for="email">Email</label>
-                      <input class="form__input" type="email" id="email" name="email" placeholder="Your email" >
-                    </div>
-                    </div>
-
-                    <div class="form-checkbox__sguare">
-                      <input class="form__check-input" type="checkbox" id="subscribe" name="subscribe" value="yes">
-                      <label for="subscribe">I agree to the processing of personaldata<label>
-                    </div>
-                  
-                </div>    
-
-                <div class="form__button">
-                <button class="form__button-call" type="submit">Call theme asurer</button>
+                <div class="footer__item">
+                  <div class="footer__links-title">
+                    <p>Services</p>
+                  </div>
+                  <ul class="footer__item_links">
+                    <li>FAQs</li>
+                    <li>Contact Us</li> 
+                  </ul>
                 </div>
-                     
-              </form>
+
+              </nav>
+
+          </div>
+
+          <div class="footer__social">
+
+            <div class="footer__copiright">
+              <div>
+              <p>Terms & Conditions</p>
+              </div>
+              <div>
+              <p>Privacy Policy</p>
+              </div>
             </div>
-          </div>
-<!-- information -->
-          <div class="measurer__bottom-note">
-            <div class="bottom-icon">
-              <img src="images/banck.svg" alt="icon">
+
+            <div class="footer__icon">
+              <a href="#">
+                <img src="images/001-facebook.png" alt="facebook">
+              </a>
+
+               <a href="#">
+                <img src="images/twitter.png" alt="twitter">
+              </a>
+
+               <a href="#">
+                <img src="images/004-instagram.png" alt="inst">
+              </a>
+
             </div>
-            <div class="bottom-text">Help save 10 - 20% of the<br>cost of materials</div>
-          </div>
-        </div>
-
- 
 
 
-      
-      </div>
-  </section>   
-        
 
-
-                            <!-- SECTION: INTERIOR -->
- <section class="interior">
-  <div class="interior__stiles-container container">
-    <div class="interior__content">
-
-    <!-- Левая часть: заголовок + список -->
-     <div class="interior__stiles-text">
-      <h2 class="interior__stiles-heading">We realize your<br>wildest fantasies</h2>
-      <ul class="interior__stiles-list">
-        <li class="interior__stile-item__active">American classic</li>
-        <li class="interior__stile-item">Empire</li>
-        <li class="interior__stile-item">Classical</li>
-        <li class="interior__stile-item">Loft</li>
-        <li class="interior__stile-item">Minimalism</li>
-        <li class="interior__stile-item">Provence</li>
-        <li class="interior__stile-item">Romanticism</li>
-        <li class="interior__stile-item">Scandinavian style</li>
-        <li class="interior__stile-item">Mediterranean style</li>
-        <li class="interior__stile-item">High tech</li>
-        <li class="interior__stile-item">Eclecticism</li>
-      </ul>
-     </div>
-
-     <!-- Правая часть: изображения -->
-      <div class="interior__stile-gallery">
-
-        <div class="gallery__main">
-        <div class="gallery__item-photo">
-          <img class="gallery__img" src="images/warch.png" alt="American room stile">
-        </div>
-
-        <div class="gallery__item">
-          <img class="gallery__img" src="images/living.png" alt="Living room stile">
-        </div>
-        </div>
-
-        <div class="gallery__main">
-        <div class="gallery__item-photo2">
-          <img class="gallery__img" src="images/sofa.png" alt="Wall decor and sofa">
-        </div>
-
-        <div class="gallery__item">
-          <img class="gallery__img" src="images/bright.png" alt="Bright room with chandelier">
-        </div>
-        </div>
-      </div>
-      </div>
-  </div>
-  <div class="interior__image">
- </section>
-
-
-                                    <!-- SECTION: CLIENTS -->                                
- <section class="clients">
-  <div class="clients__container container">
-
-    
-    
-    <div class="clients__title">
-      <h3>our clients</h3>
-    </div>
-
-    <div class="icon__logo">
-     <div class="dash__logo">&mdash;</div>
-    <div>
-      <img src="images/handshake.png" alt="#">
-    </div>
-    <div class="dash__logo">&mdash;</div>
-    </div>
-
-
-    <div class="clients__content">
-      <p>80% of our customers recommend us to their<br>friends and family.</p>
-    </div>
-
-    <div class="clients__cards">
-
-      <div class="client__card">
-        <div class="client__card-photo__surname">
-      <div class="client__card-photo">
-        <img class="client__photo" src="images/fedosova.png" alt="photo">
-      </div>
-      <div class="client__surname">
-        <h4>Fedosova Maria<br>Konstantinovna</h4>
-      </div>
-      </div>
-
-      <div class="client__text">
-        <p>I want to thank the guys for their work. We put your<br>shower part in repair. I am very grateful that I referred<br>to the repair as to my own. Great thanks I express the<br>project to Georgia for its professionalism and approach.<br>The repair process was turned out in terms, faster than<br>anticipated. Team mobile and professional. Works<br>performed qualitatively without comments. Quality<br>satisfied. Prices democratic. I recommend these<br>masters.</p>
-      </div>
-
-      <div class="client__metrics">
-        <div class="client__metric">
-          <span class="metric__icon">
-            <img src="images/group1.svg" alt="icon">
-          </span>
-          <span class="metric__value">40 m2</span>  
-        </div>
-        <div class="client__metric">
-          <span class="metric__icon">
-            <img src="images/group2.svg" alt="icon">
-          </span>
-          <span class="metric__value">48 DAYS</span>
-        </div> 
-      </div>
-      </div>
-
-      <div class="client__card">
-        <div class="client__card-photo__surname">
-       <div class="client__card-photo">
-        <img class="client__photo" src="images/afanasyev.png" alt="photo">
-      </div>
-      <div class="client__surname">
-        <h4>Afanasyev Sergey<br>Alexandrovich</h4>
-      </div>
-      </div>
-
-      <div class="client__text">
-        <p>I want to thank the guys for their work. We put your<br>shower part in repair. I am very grateful that I referred<br>to the repair as to my own. Great thanks I express the<br>project to Georgia for its professionalism and approach.<br>The repair process was turned out in terms, faster than<br>anticipated. Team mobile and professional. Works<br>performed qualitatively without comments. Quality<br>satisfied. Prices democratic. I recommend these<br>masters.</p>
-      </div>
-
-      <div class="client__metrics">
-        <div class="client__metric">
-          <span class="metric__icon">
-            <img src="images/group1.svg" alt="icon">
-          </span>
-          <span class="metric__value">90 м2</span>  
-        </div>
-        <div class="client__metric">
-          <span class="metric__icon">
-            <img src="images/group2.svg" alt="icon">
-          </span>
-          <span class="metric__value">128 DAYS</span>
-        </div> 
-      </div>
-      </div>
-
-
-      <div class="client__card">
-        <div class="client__card-photo__surname">
-       <div class="client__card-photo">
-        <img class="client__photo" src="images/kiriev.png" alt="photo">
-      </div>
-      <div class="client__surname">
-        <h4>Kiriev Egor<br>Leonidovich</h4>
-      </div>
-      </div>
-
-      <div class="client__text">
-        <p>I want to thank the guys for their work. We put your<br>shower part in repair. I am very grateful that I referred<br>to the repair as to my own. Great thanks I express the<br>project to Georgia for its professionalism and approach.<br>The repair process was turned out in terms, faster than<br>anticipated. Team mobile and professional. Works<br>performed qualitatively without comments. Quality<br>satisfied. Prices democratic. I recommend these<br>masters.</p>
-      </div>
-
-      <div class="client__metrics">
-        <div class="client__metric">
-          <span class="metric__icon">
-            <img src="images/group1.svg" alt="icon">
-          </span>
-          <span class="metric__value">56m2</span>  
-        </div>
-
-        <div class="client__metric">
-          <span class="metric__icon">
-            <img src="images/group2.svg" alt="icon">
-          </span>
-          <span class="metric__value">86 DAYS</span>
-        </div> 
-      </div>
-      </div>
-
-
-      
-
-    </div>
-  </div>
- </section>
-
-
-                                  <!-- SECTION: CONTACT__SECTION -->
- <section class="contact__section">
-  <div class="contact__section-container container">
-    <div class="contact__form-container">
-      <div class="contact__container">
-      <div class="contact__form-title">
-      <h2>have any questions?</h2>
-      </div>
-
-
-      <form class="contact__form">
-        <div class="form__row">
-
-          <div class="form__group-two">
-          <div class="form__group form__group-container">
-            <label class="form__label" for="contact-name">Name</label>
-            <input class="form__input" type="text" id="contact-name" name="name" 
-            placeholder="What is your name:">
-          </div>
-  
-          <div class="form__group form__group-container">
-            <label class="form__label" for="contact-phone">Phone</label>
-            <input class="form__input" type="tel" id="contact-phone" name="phone" 
-            placeholder="Your phone number:">
-          </div>
-          </div>
-       
-  
-          <div class="form__group">
-            <label class="form__label" for="contact-question">Question</label>
-            <input class="form__input" type="text" id="contact-question" name="question" placeholder="I want to know:">
           </div>
 
+
+
+
+
+
+
+
         </div>
-
-
-
-  
-          <diV class="form__group-check form__checkbox-group">
-            <input class="form__check-input" type="checkbox" id="contact-consent" name="consent" >
-            <label class="form__check-label" for="contact-consent">
-            I agree to the processing of personal data
-            </label>
-          </diV>
-          <div class="button">
-            <button class="form__submit-button" type="submit">Submit</button>
-          </div>
-
-      </form>
       </div>
-    </div>
-
-    <div class="contact__contact-info">
-    <div class="contact__info">
-      <h3 class="contact__address">Rostov-on-Don, Nansen St., 239 Shopping Center<br>Decorum Tel +7 (928) 768 32 29    
-      </h3>
-      <div class="contact__icons">
-        <span class="contact__icon">
-          <img src="images/letter.svg" alt="icon">
-        </span>
-        <span class="contact__icon">
-          <img src="images/instagram.svg" alt="icon">
-        </span>
-  
-      </div>
-    </div>
-  
-    <div class="contact__map">
-      <img src="images/mape.png" alt="map">
-    </div>
-    </div>
-
-
-  </div>
- </section>
- </main>
-
-                                <!-- FOOTER -->
- <footer class="site__footer">
-  <div class="site__footer-content container">
-    
-    <div class="footer__left">
-      <span class="footer__brand">IC "Repair Design Project"</span>
-    </div>
-  
-    <nav class="footer__nav">
-      <ul class="footer__menu">
-        <li><a href="#" class="footer__link footer__link-activ">HOME</a></li>
-        <li><a href="#" class="footer__link">PROJECTS</a></li>
-        <li><a href="#" class="footer__link">MEASUREMENT</a></li>
-        <li><a href="#" class="footer__link">TEAM</a></li>
-        <li><a href="#" class="footer__link">REVIEWS</a></li>
-        <li><a href="#" class="footer__link">CONTACTS</a></li>
-      </ul>
-    </nav>
-
-    
-  
-    <div class="footer__right">
-      <div class="footer__right-phone">
-      <a class="footer__phone" href="tel:+79287683239">+7 (928) 768-32-29</a>
-      </div>
-      <div class="footer__button">
-        <button class="footer__call-button">Request a call</button>
-      </div>  
-    </div>
-
-
-  </div>
- </footer>
-
- 
-
+    </footer>
   </body>
 </html>
-
-
