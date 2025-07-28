@@ -15,12 +15,11 @@
 }
 
 .content {
-    width: 495px;
     font-family: "Libre Franklin";
-    font-weight: 400;
+    font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    color: #999;
+    color: #000;
 }
 
 .title {
@@ -39,8 +38,8 @@
 }
 
 .span__start {   
-    font-weight: 700;
-    color: #000;
+    font-weight: 400;
+    color: #999;
 }
 
 .direction {
@@ -120,9 +119,12 @@
 }
 
  /* SECTION SERVICES  */
-
  .services {
     margin-top: 120px;
+}
+
+.services__content {
+    width: 507px;
 }
 
 .services__row {
@@ -180,10 +182,6 @@
     margin-top: 6px;   
     text-align: center;
 }
-
-/* .decore_body-text{
-    width: 685px;
-} */
 
  /* SECTION PRODUCTS  */
 .products {
@@ -251,7 +249,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    color: #999;
+    color: #000;
 }
 
 .span__head {
@@ -259,7 +257,7 @@
     font-weight: 100;
     font-size: 24px;
     line-height: 36px;
-    color: #000;
+    color: #999;
 }
 
 .button__btn {
