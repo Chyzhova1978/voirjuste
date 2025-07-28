@@ -1,8 +1,4 @@
 
-
-
-
-
 .container {
     max-width: 1170px;
     margin: 0 auto;         
@@ -177,12 +173,17 @@
 
 .decore__body {    
     text-align: center;
+    width: 685px;
 }
 
 .decore__about {
     margin-top: 6px;   
     text-align: center;
 }
+
+/* .decore_body-text{
+    width: 685px;
+} */
 
  /* SECTION PRODUCTS  */
 .products {
@@ -193,6 +194,10 @@
     padding: 120px 0;
     border-top: 1px solid #e6e6e6;
     border-bottom: 1px solid #e6e6e6;   
+}
+
+.products__content{
+    width: 370px;
 }
 
 .products__cards {
@@ -236,6 +241,7 @@
     display: flex;
     gap: 20px;
     color: #5ab963;
+    font-weight: 700;
 }
 
 .party__title {
@@ -263,6 +269,7 @@
 
 .party__btn {
     background-color: #5ab963;
+    font-weight: bold !important;
 }
 
 /* FOOTER */
